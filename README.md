@@ -2,7 +2,7 @@
 
 ## About
 
-This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the dataset from ([https://developers.themoviedb.org/3/getting-started](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers?resource=download)). For detailed walkthrough, please view the source code in order from:
+This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the dataset from [MRI and Alzheimers](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers?resource=download). For detailed walkthrough, please view the source code in order from:
 
 1. [Data Extraction](insert link)
 2. [Data Visualization](insert link)
