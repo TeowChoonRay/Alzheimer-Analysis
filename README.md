@@ -14,7 +14,7 @@ This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and
 
 - @TeowChoonRay - 
 - @nicole - 
-- @chloe - 
+- @its.chloechloe - 
 
 ## Problem Definition
 
