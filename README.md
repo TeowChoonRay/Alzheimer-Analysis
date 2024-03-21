@@ -4,7 +4,7 @@
 
 This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the dataset from [MRI and Alzheimers](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers?resource=download). For detailed walkthrough, please view the source code in order from:
 
-1. [Data Extraction](insert link)
+1. [Data Extraction and Cleaning](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Data%20Extraction%20and%20Cleaning.ipynb))
 2. [Data Visualization](insert link)
 3. [Data Resampling and Splitting](insert link)
 4. [Logistic Regression](insert link)
