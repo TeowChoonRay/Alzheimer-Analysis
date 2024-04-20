@@ -6,7 +6,7 @@ This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and
 
 1. [Data Extraction and Cleaning](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Data%20Extraction%20and%20Cleaning.ipynb)
 2. [Exploratory Data Analysis](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Exploratory%20Data%20Analysis.ipynb)
-3. [Regession](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Regression.ipynb)
+3. [Regression](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Regression.ipynb)
 4. [Classification Tree](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Classification%20Tree.ipynb)
 5. [Convolution Neural Network](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Convolution%20Neural%20Network%20(VGG19).ipynb)
 
