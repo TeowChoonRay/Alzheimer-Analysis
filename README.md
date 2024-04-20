@@ -10,7 +10,7 @@ This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and
 4. [Classification Tree](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Classification%20Tree.ipynb)
 5. [Convolution Neural Network](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Convolution%20Neural%20Network%20(VGG19).ipynb)
 
-*Note: As the Brain MRI JPG Images file size is too large, it is not uploaded on Github. it would be ideal for you to download the dataset from kaggle first before proceeding with VGG19 CNN Model.Do note that the trained model is not uploaded on Github as well due to its file size*
+*Note: As the Brain MRI JPG Images file size is too large, it is not uploaded on Github. it would be ideal for you to download the dataset from kaggle first before proceeding with VGG19 CNN Model. Do note that the trained model is not uploaded on Github as well due to its file size*
   
 ## Contributors
 
