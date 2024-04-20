@@ -1,4 +1,4 @@
-# Welcome to Alzheimer-Analysis Respository
+# Welcome to Alzheimers-Analysis Respository
 
 ## About
 
@@ -6,10 +6,11 @@ This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and
 
 1. [Data Extraction and Cleaning](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Data%20Extraction%20and%20Cleaning.ipynb)
 2. [Exploratory Data Analysis](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Exploratory%20Data%20Analysis.ipynb)
-3. [Classification Tree](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Classification%20Tree.ipynb)
+3. [Regession](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Regression.ipynb)
+4. [Classification Tree](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Classification%20Tree.ipynb)
 5. [Convolution Neural Network](https://github.com/TeowChoonRay/Alzheimer-Analysis/blob/main/Convolution%20Neural%20Network%20(VGG19).ipynb)
 
-*Note: As the Brain MRI JPG Images file size is too large, it is not upload on Github. it would be ideal for you to download the dataset from kaggle first before proceeding with VGG19 CNN Model.*
+*Note: As the Brain MRI JPG Images file size is too large, it is not uploaded on Github. it would be ideal for you to download the dataset from kaggle first before proceeding with VGG19 CNN Model.Do note that the trained model is not uploaded on Github as well due to its file size*
   
 ## Contributors
 
@@ -31,15 +32,26 @@ In **Image**, we aim to create an image recognition model that can predict the t
 
 ## Models Used
 
-1. Classification Tree
-2. Random Forest
-3. Neural Networks (Transfer Learning - VGG19)
+1. Linear Regression
+2. Ordinal Logistic Regression
+3. Classification Tree
+4. Random Forest
+5. Neural Networks (Transfer Learning - VGG19)
 
 ## Conclusion
+Fundamentally, it is important to note that Alzheimer’s is a complex disease. Alzheimers ​​involves the accumulation of abnormal proteins which causes progressive damage and this relationship to cognitive decline is still not fully understood. Furthermore, Alzheimers is believed to arise from a combination of genetic, environmental, and lifestyle factors which is severely complicated to untangle with our chosen dataset.
 
+Nonetheless, it is clearly evident that some variables have a more clearcut relationship with the onset and type of Alzheimers, including MMSE or Age. It is important for one to focus on these factors in determining and predicting the onset of Alzheimers so that treatment can be sought earlier, especially if the disease has been developed.
 
 ## What did we learn from this project?
 
+1. Ordinal Logistic Regression - type of regression analysis used when the dependent variable (response variable) is ordinal
+2. Validation Dataset - used to give an unbiased estimate of the skill of the final tuned model when comparing or selecting between final models
+3. Transfer Learning (CNN) -  take a model trained on a large dataset and transfer its knowledge to a smaller dataset
+4. 
+
+## Future Possibilities
+To improve accuracy for our CNN model, some adjustments we can consider is to limit the dataset to a particular type of brain slice instead of using all types. We can also explore the possibility of training the model using a larger image dataset, which is clearly possible given that over 80,000 images are available. We may even consider creating our own custom model which is more suited for MRI greyscale images.
 
 ## References
 https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet#:~:text=Alzheimer's%20disease%20is%20a%20brain,first%20appear%20later%20in%20life.
