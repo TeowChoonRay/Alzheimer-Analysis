@@ -14,7 +14,7 @@ This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and
   
 ## Contributors
 
-- @TeowChoonRay (Teow Choon Ray) - Convolution Neural Network (VGG19)
+- @TeowChoonRay (Teow Choon Ray) - Regression, Convolution Neural Network (VGG19)
 - @nicoleang18 (Nicole Ang Xuan Jie) - Classification Tree & Random Forest
 - @its.chloechloe (Chloe Yeo (Yang Enxi)) - Exploratory Data Analysis
 
