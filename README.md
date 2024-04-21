@@ -46,9 +46,9 @@ Nonetheless, it is clearly evident that some variables have a more clearcut rela
 ## What did we learn from this project?
 
 1. Ordinal Logistic Regression - type of regression analysis used when the dependent variable (response variable) is ordinal
-2. Validation Dataset - used to give an unbiased estimate of the skill of the final tuned model when comparing or selecting between final models
-3. Transfer Learning (CNN) -  take a model trained on a large dataset and transfer its knowledge to a smaller dataset
-4. 
+2. GridSearch - used to finetune hyperparameters to distinguish optimal values found through the randomizedsearch function. 
+3. Validation Dataset - used to give an unbiased estimate of the skill of the final tuned model when comparing or selecting between final models
+4. Transfer Learning (CNN) -  take a model trained on a large dataset and transfer its knowledge to a smaller dataset
 
 ## Future Possibilities
 To improve accuracy for our CNN model, some adjustments we can consider is to limit the dataset to a particular type of brain slice instead of using all types. We can also explore the possibility of training the model using a larger image dataset, which is clearly possible given that over 80,000 images are available. We may even consider creating our own custom model which is more suited for MRI greyscale images.
