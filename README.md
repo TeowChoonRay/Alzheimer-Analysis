@@ -54,5 +54,5 @@ Nonetheless, it is clearly evident that some variables have a more clearcut rela
 To improve accuracy for our CNN model, some adjustments we can consider is to limit the dataset to a particular type of brain slice instead of using all types. We can also explore the possibility of training the model using a larger image dataset, which is clearly possible given that over 80,000 images are available. We may even consider creating our own custom model which is more suited for MRI greyscale images.
 
 ## References
-https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet#:~:text=Alzheimer's%20disease%20is%20a%20brain,first%20appear%20later%20in%20life.
-https://www.alz.org/alzheimers-dementia/treatments#:~:text=There's%20no%20cure%20for%20Alzheimer's,that%20may%20help%20treat%20symptoms.
+Alzheimer's Association. (2021). Tratamientos. Alzheimer’s Disease and Dementia. https://www.alz.org/alzheimers-dementia/treatments#:~:text=There
+National Institute on Aging. (2023, April 5). Alzheimer’s Disease Fact Sheet. National Institute on Aging. https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet#:~:text=Alzheimer
