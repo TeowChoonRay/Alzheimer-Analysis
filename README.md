@@ -51,6 +51,8 @@ Nonetheless, it is clearly evident that some variables have a more clearcut rela
 4. Transfer Learning (CNN) -  take a model trained on a large dataset and transfer its knowledge to a smaller dataset
 
 ## Future Possibilities
+- Classification Tree & GridSearch: Enhancing Alzheimer's predictive modelling using Clinical Dementia Rating (CDR) data, we can leverage advanced machine learning models like XGBoost, LightGBM, or AdaBoost with SAMME.R, tuned to address class imbalances and complex data structures. Additionally, we can incorporate advanced feature engineering, such as interaction terms and polynomial features to capture intricate dependencies in disease progression. Moreover, we can also enhance the interpretability of the model through tools like SHAP (Shapley Additive exPlanations) which would provide crucial insights into decision making processes, enhancing clinical acceptance. These strategies will maximize the predictive power of models focused on Alzheimer’s progression using CDR data.
+
 - CNN: Currently, the model is trained without considering class imbalance, which may lead to a biased model. Furthermore, images were split for training, validation and testing randomly without considering subject identity, which may may impact the model's generalisation performance due to data leakage. Since only 1417 images were used for training, we hence can explore the possibility of training the model using a larger image dataset, selected equally across each class of Alzheimer's and taking subject identity into account. This should be possible given that over 80,000 images are available in the dataset. We may even consider creating our own custom model which is more suited for MRI greyscale images.
 
 ## References
