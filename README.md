@@ -30,6 +30,12 @@ In **Text**, we aim to determine a correlation between the different demographic
 
 In **Image**, we aim to create an image recognition model that can predict the type of dementia (`Non Demented`, `Very Mild Dementia`, `Mild Dementia` and `Moderate Dementia`) based on Brain MRI Images (were sliced along the z-axis into 256 pieces, and slices ranging from 100 to 160 were selected from each patient).
 
+
+## Motivation
+
+Witnessing the early signs of cognitive impairment in our loved ones has fueled our determination to contribute meaningfully to Alzheimer's research. With the prevalence of dementia-related concerns in Singapore's aging population, we are driven to explore innovative machine learning solutions that can aid in early detection.
+
+
 ## Models Used
 
 1. Linear Regression
@@ -51,6 +57,8 @@ Nonetheless, it is clearly evident that some variables have a more clearcut rela
 4. Transfer Learning (CNN) -  take a model trained on a large dataset and transfer its knowledge to a smaller dataset
 
 ## Future Possibilities
+- Exploratory Data Analysis: In this project, we have used data like demographics information and clincal assessment. Future EDA may involve the integration and exploration of multimodal data sources, including genetic markers and wearable sensor data with real-time monitoring (besides clinical assessments and neuroimaging (MRI, PET)). This means analyzing streaming sensor data to identify behavioral or physiological markers indicative of cognitive impairment. Simultaneously analyzing multiple data modalities can provide a more comprehensive understanding of Alzheimer's disease progression and enhance predictive modeling efforts. 
+
 - Classification Tree & GridSearch: Enhancing Alzheimer's predictive modelling using Clinical Dementia Rating (CDR) data, we can leverage advanced machine learning models like XGBoost, LightGBM, or AdaBoost with SAMME.R, tuned to address class imbalances and complex data structures. Additionally, we can incorporate advanced feature engineering, such as interaction terms and polynomial features to capture intricate dependencies in disease progression. Moreover, we can also enhance the interpretability of the model through tools like SHAP (Shapley Additive exPlanations) which would provide crucial insights into decision making processes, enhancing clinical acceptance. These strategies will maximize the predictive power of models focused on Alzheimer’s progression using CDR data.
 
 - CNN: Currently, the model is trained without considering class imbalance, which may lead to a biased model. Furthermore, images were split for training, validation and testing randomly without considering subject identity, which may may impact the model's generalisation performance due to data leakage. Since only 1417 images were used for training, we hence can explore the possibility of training the model using a larger image dataset, selected equally across each class of Alzheimer's and taking subject identity into account. This should be possible given that over 80,000 images are available in the dataset. We may even consider creating our own custom model which is more suited for MRI greyscale images.
@@ -58,4 +66,8 @@ Nonetheless, it is clearly evident that some variables have a more clearcut rela
 ## References
 Alzheimer's Association. (2021). Tratamientos. Alzheimer’s Disease and Dementia. https://www.alz.org/alzheimers-dementia/treatments#:~:text=There
 
+Fang, C. S. (2022a, September 28). S’pore’s population ageing rapidly: Nearly 1 in 5 citizens is 65 years and older. The Straits Times. https://www.straitstimes.com/singapore/singapores-population-ageing-rapidly-184-of-citizens-are-65-years-and-older 
+
 National Institute on Aging. (2023, April 5). Alzheimer’s Disease Fact Sheet. National Institute on Aging. https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet#:~:text=Alzheimer
+
+Tan, J. (2023b, November 14). Dementia care: 7 in 10 say it is a struggle that takes a toll on emotional and mental well-being. The Straits Times. https://www.straitstimes.com/singapore/dementia-care-7-in-10-say-it-is-a-daily-battle-that-takes-a-toll-on-health-relationship-and-mind 
