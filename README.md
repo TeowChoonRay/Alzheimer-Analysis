@@ -20,15 +20,15 @@ This is ACDA1 Team 4's Mini-Project for SC1015 (Introduction to Data Science and
 
 ## Introduction & Problem Definition 
 
-Alzheimer’s disease is a brain disorder that slowly destroys memory and thinking skills, and eventually, the ability to carry out the simplest tasks. In most people with Alzheimer’s, symptoms first appear later in life ( ). There is no cure for Alzheimer’s, but there are treatments that may change disease progression, and drug and non-drug options that may help treat symptoms ( ).
+Alzheimer’s disease is a brain disorder that slowly destroys memory and thinking skills, and eventually, the ability to carry out the simplest tasks. In most people with Alzheimer’s, symptoms first appear later in life (Alzheimer's Association, 2021). There is no cure for Alzheimer’s, but there are treatments that may change disease progression, and drug and non-drug options that may help treat symptoms (National Institute of Aging, 2023).
 
-It is important to realise that the progression of Alzheimer's can be slowed if detected at early stage. Hence, the aim of the project is to **detect Alzheimer's disease at early stage using OASIS brain data set**. This project involves using implementing machine learning techniques and exploring different algorithms and methods to accurately detect the type of Alzheimer's through the given data. 
+It is important to realise that the progression of Alzheimer's can be slowed if detected at early stage. Hence, the aim of the project is to **develop algorithms and models capable of detecting Alzheimer’s disease at an early stage using the OASIS brain dataset**. By leveraging advanced data analysis techniques, the goal is to accurately identify patterns and biomarkers associated with Alzheimer’s pathology, enabling timely intervention and treatment.
 
 We aim to achieve this with two different types of data: **Text** and **Image**
 
-In **Text**, we aim to determine a correlation between the different demographic data (predictor) with the `Clinical Dementia Rating (CDR)` (response). The demographic data includes Gender (`M/F`), `Age`, Educational Level (`Educ`) and Socio-Economic Status (`SES`).
+In **Text**, we aim to determine a correlation between the different demographic and medical data (predictor) with the `Clinical Dementia Rating (CDR)` (response). The demographic data includes Gender (`M/F`), `Age`, Educational Level (`Educ`) and Socio-Economic Status (`SES`). Whereas, the medical data include Mini-Mental State Examination (`MMSE`), Estimated Total Intracranial Volume (`eTIV`), Normalised Whole-Brain Volume (`nWBV`) and Atlas Scaling Factor (`ASF`).
 
-In **Image**, we aim to create an image recognition model that can predict the type of dementia (`Non Demented`, `Very Mild Dementia`, `Mild Dementia` and `Moderate Dementia`) based on Brain MRI Images of 4 different brain slice image types.
+In **Image**, we aim to create an image recognition model that can predict the type of dementia (`Non Demented`, `Very Mild Dementia`, `Mild Dementia` and `Moderate Dementia`) based on Brain MRI Images (were sliced along the z-axis into 256 pieces, and slices ranging from 100 to 160 were selected from each patient).
 
 ## Models Used
 
@@ -41,17 +41,17 @@ In **Image**, we aim to create an image recognition model that can predict the t
 ## Conclusion
 Fundamentally, it is important to note that Alzheimer’s is a complex disease. Alzheimers ​​involves the accumulation of abnormal proteins which causes progressive damage and this relationship to cognitive decline is still not fully understood. Furthermore, Alzheimers is believed to arise from a combination of genetic, environmental, and lifestyle factors which is severely complicated to untangle with our chosen dataset.
 
-Nonetheless, it is clearly evident that some variables have a more clearcut relationship with the onset and type of Alzheimers, including MMSE or Age. It is important for one to focus on these factors in determining and predicting the onset of Alzheimers so that treatment can be sought earlier, especially if the disease has been developed.
+Nonetheless, it is clearly evident that some variables have a more clearcut relationship with the onset and type of Alzheimers, including `MMSE` and `Age`. It is important for one to focus on these factors in determining and predicting the onset of Alzheimers so that treatment can be sought earlier, especially if the disease has already been developed.
 
 ## What did we learn from this project?
 
-1. Ordinal Logistic Regression - type of regression analysis used when the dependent variable (response variable) is ordinal
+1. Ordinal Logistic Regression - type of regression analysis used when the dependent variable (response variable) is ordinal (values of the variable represent categories)
 2. GridSearch - used to finetune hyperparameters to distinguish optimal values found through the randomizedsearch function. 
 3. Validation Dataset - used to give an unbiased estimate of the skill of the final tuned model when comparing or selecting between final models
 4. Transfer Learning (CNN) -  take a model trained on a large dataset and transfer its knowledge to a smaller dataset
 
 ## Future Possibilities
-To improve accuracy for our CNN model, some adjustments we can consider is to limit the dataset to a particular type of brain slice instead of using all types. We can also explore the possibility of training the model using a larger image dataset, which is clearly possible given that over 80,000 images are available. We may even consider creating our own custom model which is more suited for MRI greyscale images.
+- CNN: Currently, the model is trained without considering class imbalance, which may lead to a biased model. Furthermore, images were split for training, validation and testing randomly without considering subject identity, which may may impact the model's generalisation performance due to data leakage. Since only 1417 images were used for training, we hence can explore the possibility of training the model using a larger image dataset, selected equally across each class of Alzheimer's and taking subject identity into account. This should be possible given that over 80,000 images are available in the dataset. We may even consider creating our own custom model which is more suited for MRI greyscale images.
 
 ## References
 Alzheimer's Association. (2021). Tratamientos. Alzheimer’s Disease and Dementia. https://www.alz.org/alzheimers-dementia/treatments#:~:text=There
